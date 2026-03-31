@@ -262,6 +262,40 @@ ul {
 	flex-wrap: wrap;
 }
 
+.scroll-indicator {
+	display: flex;
+	justify-content: center;
+	padding-top: 32px;
+}
+
+.mouse {
+	width: 26px;
+	height: 42px;
+	border: 2px solid rgba(255, 255, 255, 0.45);
+	border-radius: 14px;
+	display: flex;
+	justify-content: center;
+	padding-top: 8px;
+}
+
+.wheel {
+	width: 4px;
+	height: 8px;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 2px;
+	animation: scroll-wheel 1.8s ease-in-out infinite;
+}
+
+.section-light .mouse,
+.section-digital .mouse {
+	border-color: rgba(0, 0, 0, 0.25);
+}
+
+.section-light .wheel,
+.section-digital .wheel {
+	background: rgba(0, 0, 0, 0.4);
+}
+
 .hero-visual {
 	width: 100%;
 }
