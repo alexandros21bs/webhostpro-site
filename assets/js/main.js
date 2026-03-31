@@ -235,7 +235,7 @@ function setupContactModal() {
 document.addEventListener("DOMContentLoaded", () => {
 	const langLinks = document.querySelectorAll(".lang-link[data-lang]");
 	const savedLang = localStorage.getItem("whp_lang");
-	const initialLang = savedLang === "el" || savedLang === "en" ? savedLang : "en";
+	const initialLang = savedLang === "el" || savedLang === "en" ? savedLang : "el";
 
 	langLinks.forEach((item) => item.classList.remove("is-active"));
 	const initialLink = document.querySelector(`.lang-link[data-lang="${initialLang}"]`);
