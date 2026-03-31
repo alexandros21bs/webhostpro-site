@@ -745,8 +745,8 @@ ul {
 
 .footer-logo-image {
 	width: auto;
-	max-width: 130px;
-	max-height: 180px;
+	max-width: 180px;
+	max-height: 220px;
 	object-fit: contain;
 	object-position: left top;
 }
@@ -855,9 +855,9 @@ ul {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	height: 42px;
-	min-width: 118px;
-	padding: 7px 12px;
+	height: 56px;
+	min-width: 140px;
+	padding: 10px 16px;
 	border-radius: 10px;
 	border: 1px solid rgba(255, 255, 255, 0.14);
 	background: rgba(255, 255, 255, 0.04);
@@ -865,7 +865,7 @@ ul {
 }
 
 .ecosystem-logo-item img {
-	max-height: 22px;
+	max-height: 32px;
 	max-width: 100%;
 	width: auto;
 	object-fit: contain;

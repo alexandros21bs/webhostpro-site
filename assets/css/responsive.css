@@ -52,8 +52,8 @@
 	}
 
 	.ecosystem-logo-item {
-		min-width: 104px;
-		height: 40px;
+		min-width: 120px;
+		height: 50px;
 	}
 
 	.modal-dialog {
@@ -132,18 +132,18 @@
 	}
 
 	.ecosystem-logo-item {
-		min-width: 92px;
-		height: 36px;
-		padding: 6px 10px;
+		min-width: 110px;
+		height: 44px;
+		padding: 8px 12px;
 	}
 
 	.ecosystem-logo-item img {
-		max-height: 19px;
+		max-height: 26px;
 	}
 
 	.footer-logo-image {
-		max-width: 108px;
-		max-height: 150px;
+		max-width: 150px;
+		max-height: 180px;
 	}
 
 	.contact-modal {
