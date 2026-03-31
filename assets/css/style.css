@@ -151,6 +151,12 @@ ul {
 	white-space: nowrap;
 }
 
+.brand-logo {
+	display: block;
+	height: 46px;
+	width: auto;
+}
+
 .site-nav {
 	margin-left: auto;
 }

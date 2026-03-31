@@ -28,6 +28,10 @@
 		gap: 18px;
 	}
 
+	.brand-logo {
+		height: 40px;
+	}
+
 	.nav-list {
 		gap: 14px;
 	}
@@ -211,6 +215,10 @@
 	.site-footer {
 		padding-top: 64px;
 		padding-bottom: 24px;
+	}
+
+	.brand-logo {
+		height: 34px;
 	}
 
 	.why-layout {
