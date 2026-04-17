@@ -123,6 +123,13 @@
 }
 
 @media (max-width: 640px) {
+	.neural-fx-toggle {
+		left: 12px;
+		bottom: 12px;
+		padding: 9px 11px;
+		font-size: 0.68rem;
+	}
+
 	.footer-grid {
 		grid-template-columns: 1fr;
 	}
